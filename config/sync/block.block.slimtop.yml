@@ -1,0 +1,27 @@
+uuid: 94c89359-41cc-469a-8a9d-9162b553e375
+langcode: it
+status: false
+dependencies:
+  config:
+    - system.menu.slim-top
+  module:
+    - system
+  theme:
+    - italiagov
+_core:
+  default_config_hash: R3RxjAT58sG6x4aU4CDZ7AW1MGwfUnjyeZkoaUlNijQ
+id: slimtop
+theme: italiagov
+region: header_slim_menu
+weight: -11
+provider: null
+plugin: 'system_menu_block:slim-top'
+settings:
+  id: 'system_menu_block:slim-top'
+  label: 'Slim top'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 9992e87a-c3d2-4e61-80bb-5477e1a46c92
+langcode: it
+status: true
+dependencies:
+  theme:
+    - bootstrap_italia
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: bootstrap_italia_primary_local_tasks
+theme: bootstrap_italia
+region: disabled_blocks
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Schede primarie'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

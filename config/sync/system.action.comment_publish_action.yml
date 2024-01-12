@@ -1,0 +1,13 @@
+uuid: 2a2b53a4-97d0-4835-9c65-3546b9907c39
+langcode: it
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: C00dyL_W_5M0nFlgUB3lWUTUs96jn51Jw1MLHVEHZD0
+id: comment_publish_action
+label: 'Pubblica commento'
+type: comment
+plugin: 'entity:publish_action:comment'
+configuration: {  }
